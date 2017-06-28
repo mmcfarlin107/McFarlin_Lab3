@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+  background-color: #efefef;
+}
+.resume{
+  text-align: left;
+}
+nav ul li{
+display: inline;
+padding-right: 5px;
+position: relative;
+right: 3%;
+}
+
+span{
+  float: right
+  font-size: 14px;
+}
+figure{ width: 15%;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+  width: 80%;
+}
+
+/* Will edit as more content is added */
+
+@media only screen and (min-width:480px) {
+body{ max-width: 100%;
+margin-right: auto;
+margin-left: auto;
+}
+}
+@media only screen and (min-width:768px) {
+  body{
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+@media only screen and (min-width:992px) {
+  body{
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+@media only screen and (min-width:1200px) {
+  body{
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
